@@ -3,10 +3,14 @@ public class Main{
 
      public static void main(String []args){
         Scanner scan = new Scanner(System.in);
-        System.out.println("How much cups of lemonade do you want?");
+        System.out.println("How many cups of lemonade do you want?");
        int cups = scan.nextInt();
-       System.out.println("That will be $" + cups);
-        
-            
+       double cost = 2.0
+       double total = count * cost;
+       if (total < 0) {
+          System.out.println("That's impossible.");
+          } else {
+               System.out.printf("Your total be $%.2f", total);
+              }
      } 
 }
