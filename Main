@@ -5,7 +5,7 @@ public class Main{
         Scanner scan = new Scanner(System.in);
         System.out.println("How many cups of lemonade do you want?");
        int cups = scan.nextInt();
-       double cost = 2.0
+       double cost = 2.0;
        double total = count * cost;
        if (total < 0) {
           System.out.println("That's impossible.");
